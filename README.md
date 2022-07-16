@@ -3,7 +3,7 @@
 <ol>
 <li>Flash to 0x0 of device based on an ESP8266 microcontroller (ESP8266EX and ESP8285 chips), rboot.bin and blank_config.bin is not needed.</li>
 <li>Power off device.</li>
-<li>Connect receiver data pin to GPIO 12 using an IR receiver like VS1838B, <a href="https://www.vishay.com/en/product/82484/">TSMP1138</a> ...</li>
+<li>Connect receiver data pin to GPIO 12 using an IR receiver like <a href="https://www.cytron.io/p-ir-receiver-diode-vs1838b-38khz">VS1838B</a>, <a href="https://www.vishay.com/en/product/82484/">TSMP1138</a> ...</li>
 <li>Power on device using USB adapter.</li>
 <li>Output is transmitted to UART. You can read it using screen command or any other serial reader.</li>
 <li>To get a good capture, put IR transmitter very near of receiver (1cm - 0.4inch).</li>
