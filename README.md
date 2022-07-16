@@ -12,18 +12,27 @@
 <h2>Data format </h2>
 <h3>The haa_ir_capture_IO_12.bin is compiled from <a href="https://github.com/RavenSystem/esp-homekit-devices/releases/tag/HAAIR_1.0.0">HAA IR Capture Tool v1.0</a></h3>
 <p>
-Packets: 199
-<br>Standard Format
-<br>+ 4323 - 4515 +  494 - 1690 +  493 -  585 ... ... ...
-<br>HAA RAW Format
-<br>JhJ?AODFAOAhAODFAODFAOAhATAcATDAATAcATAcATDAATAcATAcATDAATDAATAcATDAATDAATDAATDAATDAATDAATDAATDAATDAATAcATAcATAcATAcATAcATAcATAcATAcATDAATAcATAcATDAATDAATDAATAcATAiANAcATDAATDAATAcATAcATAcATDAATDAATL1JoJ#ATDAASAdASDAATDAATAcATAcASDAATAcATAcASDAATAcASAdASDBASDBASAdASDBASDAASDBASDBASDBASDBASDBASDBASDBASAdASAdASAdASAdASAdASAdASAdASAdASDBARAdASAdASDBARDCARDBARAeARAeARAeARDCARDCARAeARAeARAeARDCARDCAR
+
+`Packets: 199`
+<br>`Standard Format`
+<br>`+ 4323 - 4515 +  494 - 1690 +  493 -  585 ... ... ...`
+<br>`HAA RAW Format`
+<br>
+`
+JhJkAODFAOAhAODFAODFAOAhATAcATDAATAcATAcATDAATAcATAcATDAATDAATAcATDAATDAATDAATDAATDAATDAATDAATDAATDAATAcATAcATAcATAcATAcATAcATAcATAcATDAATAcATAcATDAATDAATDAATAcATAiANAcATDAATDAATAcATAcATAcATDAATDAATL1JoJ#ATDAASAdASDAATDAATAcATAcASDAATAcATAcASDAATAcASAdASDBASDBASAdASDBASDAASDBASDBASDBASDBASDBASDBASDBASAdASAdASAdASAdASAdASAdASAdASAdASDBARAdASAdASDBARDCARDBARAeARAeARAeARDCARDCARAeARAeARAeARDCARDCAR
+`
 </p>
+<p>
 <br>
 <h3>IRrecvDumpV2_IO_12.bin is compiled from <a href="https://github.com/crankyoldgit/IRremoteESP8266">IRremoteESP8266</a></h3>
-<p>
-Timestamp : 000470.742,  Library : v2.8.2
-<br>Code : 0xA1834AFFFF56 (48 Bits)
-<br>Protocol: 34 (MIDEA), Type: 1 (Command), Power: On, Mode: 3 (Heat), Celsius: On, Temp: 27C/80F, On Timer: Off, Off Timer: Off, Fan: 0 (Auto), Sleep: Off, Swing(V): -, Econo: -, Turbo: -, Quiet: Off, Light: -, Clean: -, 8C Heat: -
-<br>uint16_t rawData[199] = {4444, 4560,  536, 1714,  538, 618,  ... ... ... };  // MIDEA A1834AFFFF56
-<br>uint64_t data = 0xA1834AFFFF56;
+
+`Timestamp : 000470.742,  Library : v2.8.2`
+<br>
+`Code : 0xA1834AFFFF56 (48 Bits)`
+<br>
+`Protocol: 34 (MIDEA), Type: 1 (Command), Power: On, Mode: 3 (Heat), Celsius: On, Temp: 27C/80F, On Timer: Off, Off Timer: Off, Fan: 0 (Auto), Sleep: Off, Swing(V): -, Econo: -, Turbo: -, Quiet: Off, Light: -, Clean: -, 8C Heat: -`
+<br>
+`uint16_t rawData[199] = {4444, 4560,  536, 1714,  538, 618,  ... ... ... };  // MIDEA A1834AFFFF56`
+<br>
+`uint64_t data = 0xA1834AFFFF56;`
 </p>
